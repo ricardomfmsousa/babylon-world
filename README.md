@@ -5,7 +5,7 @@
 - Starts @ [http://localhost:8080](http://localhost:8080)
 
   ```
-  yarn && yarn start
+  yarn start
   ```
 
 ## Build
@@ -13,5 +13,5 @@
 - Builds to `dist` folder
 
   ```
-  npm run build
+  yarn build
   ```
