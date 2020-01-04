@@ -11,12 +11,12 @@ import {
 export class MeshHelper {
   public static getSkyBox(scene: Scene): Observable<AbstractMesh> {
     const cubeFiles = [
-      '/assets/textures/skybox/space_left.jpg',
-      '/assets/textures/skybox/space_up.jpg',
-      '/assets/textures/skybox/space_front.jpg',
-      '/assets/textures/skybox/space_right.jpg',
-      '/assets/textures/skybox/space_down.jpg',
-      '/assets/textures/skybox/space_back.jpg'
+      'assets/textures/skybox/space_left.jpg',
+      'assets/textures/skybox/space_up.jpg',
+      'assets/textures/skybox/space_front.jpg',
+      'assets/textures/skybox/space_right.jpg',
+      'assets/textures/skybox/space_down.jpg',
+      'assets/textures/skybox/space_back.jpg'
     ];
     const skyBoxMaterial = new StandardMaterial('skybox', scene);
     skyBoxMaterial.disableLighting = true;
