@@ -1,7 +1,5 @@
 dist: trusty
-
 language: node_js
-
 node_js:
   - '8' 
 
@@ -9,12 +7,9 @@ cache:
   directories:
     - node_modules
 
-install:
-  - npm install -g yarn
-
 script:
   - yarn && yarn build
-
+  
 deploy:
   local_dir: ./dist
   target_branch: gh-pages
